@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    hanami-router (1.1.1)
+      hanami-utils (~> 1.1)
+      http_router (= 0.11.2)
+      rack (~> 2.0)
+    hanami-utils (1.1.2)
+      concurrent-ruby (~> 1.0)
+      transproc (~> 1.0)
+    http_router (0.11.2)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    rack (2.0.4)
+    transproc (1.0.2)
+    url_mount (0.2.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hanami-router
+
+BUNDLED WITH
+   1.16.1
