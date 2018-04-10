@@ -2,12 +2,13 @@ require 'hanami/controller'
 require 'resolv'
 
 module Testing
-#  attr_reader :domain
 
   class Results
     include ::Hanami::Action
 
     def call(params)
+      status = 200
+      headers = {'Content-Type' => 'text/html'}
       self.body = func
     end
 
